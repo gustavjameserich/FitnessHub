@@ -33,7 +33,7 @@ export default function LongDistanceEndurancePage() {
           <li>Durable road or trail running shoes</li>
           <li>Hydration belt or handheld bottle</li>
           <li>GPS watch or running app</li>
-          <li>Energy gels or sports drink (for runs > 60 min)</li>
+          <li>Energy gels or sports drink (for runs more than 60 min)</li>
         </ul>
       </div>
 
