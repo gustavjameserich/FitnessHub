@@ -1,0 +1,23 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Comment {
+  id        Int      @id @default(autoincrement())
+  postId    String
+  author    String
+  text      String
+  createdAt DateTime @default(now())
+}
+
+model Message {
+  id        Int      @id @default(autoincrement())
+  sender    String
+  text      String
+  createdAt DateTime @default(now())
+}
